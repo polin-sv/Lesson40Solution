@@ -6,7 +6,7 @@ using namespace std;
 
 bool is_digit(char a, bool b) {
     
-    return b = (a >= 48 && a <= 57) ? true : false;
+    return b && (a >= 48 && a <= 57);
 }
 
 int main()

@@ -5,11 +5,12 @@
 using namespace std;
 
 string print(string s) {
-    cout << s;
+    cout << s << endl;
 }
 
 int main()
 {
+    print("lrcv");
     return 0;
 }
 

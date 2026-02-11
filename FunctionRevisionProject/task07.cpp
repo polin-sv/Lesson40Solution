@@ -4,7 +4,7 @@
 #include <iostream>
 using namespace std;
 
-long long subtract(long long a, int b)
+long long subtract(long long a, short b);
 
 
 int main()
@@ -13,7 +13,7 @@ int main()
     return 0;
 }
 
-long long subtract(long long a,int b)
+long long subtract(long long a, short b)
 {
     long long result = a - b;
     return result;

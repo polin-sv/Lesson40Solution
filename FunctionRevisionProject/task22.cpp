@@ -4,14 +4,14 @@
 #include <iostream>
 using namespace std;
 
-float square(float num);
+double square(double  num);
 
 int main() {
     cout << square(3.5f);
     return 0;
 }
 
-float square(float num) {
+double square(double num) {
     return num * num;
 }
 

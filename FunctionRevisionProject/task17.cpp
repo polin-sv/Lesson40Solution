@@ -4,6 +4,10 @@
 #include <iostream>
 using namespace std;
 
+string print(string s) {
+    cout << s;
+}
+
 int main()
 {
     return 0;

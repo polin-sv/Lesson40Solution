@@ -4,11 +4,16 @@
 #include <iostream>
 using namespace std;
 
+long long fibonacci(long long n);
+
 int main() {
+
+    cout << fibonacci(120);
+
     return 0;
 }
 
-... fibonacci(...) {
+long long fibonacci(long long n) {
     if (n <= 1) {
         return n;
     }

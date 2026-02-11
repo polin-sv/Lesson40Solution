@@ -5,12 +5,15 @@
 #include <string>
 using namespace std;
 
+string print_table(int n, int m);
+
 int main()
 {
+    cout << print_table(2, 5);
     return 0;
 }
 
-... print_table(...)
+string print_table(int n,int m)
 {
     string table = "";
     
